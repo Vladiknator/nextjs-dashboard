@@ -87,6 +87,7 @@ async function seedRevenue() {
       revenue INT NOT NULL
     );
   `;
+  // console.log("Create Table ",res1)
 
   const insertedRevenue = await Promise.all(
     revenue.map(
